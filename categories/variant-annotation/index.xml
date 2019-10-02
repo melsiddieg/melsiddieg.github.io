@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>variant annotation | Academic</title>
+    <link>https://melsiddieg.github.io/categories/variant-annotation/</link>
+      <atom:link href="https://melsiddieg.github.io/categories/variant-annotation/index.xml" rel="self" type="application/rss+xml" />
+    <description>variant annotation</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 02 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://melsiddieg.github.io/img/icon-192.png</url>
+      <title>variant annotation</title>
+      <link>https://melsiddieg.github.io/categories/variant-annotation/</link>
+    </image>
+    
+    <item>
+      <title>Simplifying Genomic Annotations in R</title>
+      <link>https://melsiddieg.github.io/post/simplifying-genomic-annotations-in-r/</link>
+      <pubDate>Wed, 02 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://melsiddieg.github.io/post/simplifying-genomic-annotations-in-r/</guid>
+      <description>
+
+&lt;p&gt;In this blog post I will be introducing cellbaseR R package, which  makes use of the exhaustive RESTful Web service API that has been implemented for the Cellabase       database. It enable researchers to query and obtain a wealth of biological information from a single database saving a lot of time. Another benefit is that researchers can easily make queries about different biological topics and link all this         information together as all information is integrated&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# to get the default CellbaseR object (human data, from genome GRCh37)
+library(cellbaseR)
+# A default cellbaseR object is created as follows
+cb &amp;lt;- CellBaseR()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;the-cellbaser-methods&#34;&gt;The CellbaseR Methods&lt;/h2&gt;
+
+&lt;p&gt;The cellbaseR package
+provide many methods to query the cellbase webservices, they include:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;getGene&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;getSnp&lt;/li&gt;
+&lt;li&gt;getProtein&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;getTranscript&lt;/li&gt;
+&lt;li&gt;getRegion&lt;/li&gt;
+&lt;li&gt;getVariant&lt;/li&gt;
+&lt;li&gt;getClinical&lt;/li&gt;
+&lt;li&gt;getTf&lt;/li&gt;
+&lt;li&gt;getXref&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In all cases the user is expected to provide the ids for the query and the
+resource to be queried, in addition to the CellbaseQuery object they created.
+For example, a query through the cbGene will look something like this&lt;/p&gt;
+
+&lt;h3 id=&#34;getgene&#34;&gt;getGene&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(cellbaseR)
+cb &amp;lt;- CellBaseR()
+genes &amp;lt;- c(&amp;quot;TP73&amp;quot;,&amp;quot;TET1&amp;quot;)
+res &amp;lt;- getGene(object = cb, ids = genes, resource = &amp;quot;info&amp;quot;)
+str(res,2)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;## &#39;data.frame&#39;:	2 obs. of  12 variables:
+##  $ id         : chr  &amp;quot;ENSG00000078900&amp;quot; &amp;quot;ENSG00000138336&amp;quot;
+##  $ name       : chr  &amp;quot;TP73&amp;quot; &amp;quot;TET1&amp;quot;
+##  $ biotype    : chr  &amp;quot;protein_coding&amp;quot; &amp;quot;protein_coding&amp;quot;
+##  $ status     : chr  &amp;quot;KNOWN&amp;quot; &amp;quot;KNOWN&amp;quot;
+##  $ chromosome : chr  &amp;quot;1&amp;quot; &amp;quot;10&amp;quot;
+##  $ start      : int  3569084 70320413
+##  $ end        : int  3652765 70454239
+##  $ strand     : chr  &amp;quot;+&amp;quot; &amp;quot;+&amp;quot;
+##  $ source     : chr  &amp;quot;Ensembl&amp;quot; &amp;quot;Ensembl&amp;quot;
+##  $ description: chr  &amp;quot;tumor protein p73 [Source:HGNC Symbol;Acc:HGNC:12003]&amp;quot; &amp;quot;tet methylcytosine dioxygenase 1 [Source:HGNC Symbol;Acc:HGNC:29484]&amp;quot;
+##  $ transcripts:List of 2
+##   ..$ :&#39;data.frame&#39;:	14 obs. of  20 variables:
+##   ..$ :&#39;data.frame&#39;:	1 obs. of  20 variables:
+##  $ annotation :&#39;data.frame&#39;:	2 obs. of  2 variables:
+##   ..$ expression:List of 2
+##   ..$ diseases  :List of 2
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# as you can see the res dataframe also contains a transcripts column 
+# which is in fact a list column of nested dataframes, to get the
+# trasnscripts data.frame for first gene
+TET1_transcripts &amp;lt;- res$transcripts[[1]]
+str(TET1_transcripts,1)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;## &#39;data.frame&#39;:	14 obs. of  20 variables:
+##  $ id                : chr  &amp;quot;ENST00000378295&amp;quot; &amp;quot;ENST00000604074&amp;quot; &amp;quot;ENST00000354437&amp;quot; &amp;quot;ENST00000357733&amp;quot; ...
+##  $ name              : chr  &amp;quot;TP73-001&amp;quot; &amp;quot;TP73-006&amp;quot; &amp;quot;TP73-002&amp;quot; &amp;quot;TP73-202&amp;quot; ...
+##  $ biotype           : chr  &amp;quot;protein_coding&amp;quot; &amp;quot;protein_coding&amp;quot; &amp;quot;protein_coding&amp;quot; &amp;quot;protein_coding&amp;quot; ...
+##  $ status            : chr  &amp;quot;KNOWN&amp;quot; &amp;quot;KNOWN&amp;quot; &amp;quot;KNOWN&amp;quot; &amp;quot;KNOWN&amp;quot; ...
+##  $ chromosome        : chr  &amp;quot;1&amp;quot; &amp;quot;1&amp;quot; &amp;quot;1&amp;quot; &amp;quot;1&amp;quot; ...
+##  $ start             : int  3569084 3569084 3569129 3569129 3569129 3598930 3598930 3607236 3607236 3607236 ...
+##  $ end               : int  3652765 3652765 3649856 3650467 3650467 3649643 3649643 3649856 3649856 3652765 ...
+##  $ strand            : chr  &amp;quot;+&amp;quot; &amp;quot;+&amp;quot; &amp;quot;+&amp;quot; &amp;quot;+&amp;quot; ...
+##  $ genomicCodingStart: int  3598930 3598930 3598930 3598930 3598930 3598930 3598930 3607470 3607470 3607470 ...
+##  $ genomicCodingEnd  : int  3649643 3649326 3649326 3649643 3649643 3649643 3649643 3649326 3648119 3649643 ...
+##  $ cdnaCodingStart   : int  156 156 111 111 111 1 1 235 235 235 ...
+##  $ cdnaCodingEnd     : int  2066 1367 1610 1778 1733 1668 1623 1587 1515 1998 ...
+##  $ cdsLength         : int  1910 1211 1499 1667 1622 1667 1622 1352 1280 1763 ...
+##  $ proteinID         : chr  &amp;quot;ENSP00000367545&amp;quot; &amp;quot;ENSP00000475143&amp;quot; &amp;quot;ENSP00000346423&amp;quot; &amp;quot;ENSP00000350366&amp;quot; ...
+##  $ proteinSequence   : chr  &amp;quot;MAQSTATSPDGGTTFEHLWSSLEPDSTYFDLPQSSRGNNEVVGGTDSSMDVFHLEGMTTSVMAQFNLLSSTMDQMSSRAASASPYTPEHAASVPTHSPYAQPSSTFDTMSP&amp;quot;| __truncated__ &amp;quot;MAQSTATSPDGGTTFEHLWSSLEPDSTYFDLPQSSRGNNEVVGGTDSSMDVFHLEGMTTSVMAQFNLLSSTMDQMSSRAASASPYTPEHAASVPTHSPYAQPSSTFDTMSP&amp;quot;| __truncated__ &amp;quot;MAQSTATSPDGGTTFEHLWSSLEPDSTYFDLPQSSRGNNEVVGGTDSSMDVFHLEGMTTSVMAQFNLLSSTMDQMSSRAASASPYTPEHAASVPTHSPYAQPSSTFDTMSP&amp;quot;| __truncated__ &amp;quot;MAQSTATSPDGGTTFEHLWSSLEPDSTYFDLPQSSRGNNEVVGGTDSSMDVFHLEGMTTSVMAQFNLLSSTMDQMSSRAASASPYTPEHAASVPTHSPYAQPSSTFDTMSP&amp;quot;| __truncated__ ...
+##  $ cDnaSequence      : chr  &amp;quot;TGCCTCCCCGCCCGCGCACCCGCCCGGAGGCTCGCGCGCCCGCGAAGGGGACGCAGCGAAACCGGGGCCCGCGCCAGGCCAGCCGGGACGGACGCCGATGCCCGGGGCTGC&amp;quot;| __truncated__ &amp;quot;TGCCTCCCCGCCCGCGCACCCGCCCGGAGGCTCGCGCGCCCGCGAAGGGGACGCAGCGAAACCGGGGCCCGCGCCAGGCCAGCCGGGACGGACGCCGATGCCCGGGGCTGC&amp;quot;| __truncated__ &amp;quot;AGGGGACGCAGCGAAACCGGGGCCCGCGCCAGGCCAGCCGGGACGGACGCCGATGCCCGGGGCTGCGACGGCTGCAGAGCGAGCTGCCCTCGGAGGCCGGCGTGGGGAAGA&amp;quot;| __truncated__ &amp;quot;AGGGGACGCAGCGAAACCGGGGCCCGCGCCAGGCCAGCCGGGACGGACGCCGATGCCCGGGGCTGCGACGGCTGCAGAGCGAGCTGCCCTCGGAGGCCGGCGTGGGGAAGA&amp;quot;| __truncated__ ...
+##  $ xrefs             :List of 14
+##  $ tfbs              :List of 14
+##  $ exons             :List of 14
+##  $ annotationFlags   :List of 14
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;getregion&#34;&gt;getRegion&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# making a query through cbRegion to get all the clinically relevant variants 
+# in a specific region
+library(cellbaseR)
+cb &amp;lt;- CellBaseR()
+res &amp;lt;- getRegion(object=cb,ids=&amp;quot;17:1000000-1005000&amp;quot;,
+resource=&amp;quot;clinical&amp;quot;)
+# to get all conservation data in this region
+res &amp;lt;- getRegion(object=cb,ids=&amp;quot;17:1000000-1005000&amp;quot;,
+resource=&amp;quot;conservation&amp;quot;)
+#likewise to get all the regulatory data for the same region
+res &amp;lt;- getRegion(object=cb,ids=&amp;quot;17:1000000-1005000&amp;quot;, resource=&amp;quot;regulatory&amp;quot;)
+str(res,1)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;## &#39;data.frame&#39;:	60 obs. of  12 variables:
+##  $ chromosome  : chr  &amp;quot;17&amp;quot; &amp;quot;17&amp;quot; &amp;quot;17&amp;quot; &amp;quot;17&amp;quot; ...
+##  $ source      : chr  &amp;quot;ccat_histone&amp;quot; &amp;quot;SWEmbl_R0005_IDR&amp;quot; &amp;quot;SWEmbl_R0005_IDR&amp;quot; &amp;quot;SWEmbl_R0005_IDR&amp;quot; ...
+##  $ featureType : chr  &amp;quot;H3K27_trimethylation_site&amp;quot; &amp;quot;H3K27_acylation_site&amp;quot; &amp;quot;H3K4_monomethylation_site&amp;quot; &amp;quot;H3K9_acetylation_site&amp;quot; ...
+##  $ start       : int  993140 997759 997760 998344 998400 999107 999880 997760 998344 998400 ...
+##  $ end         : int  1004420 1000704 1002709 1000418 1000080 1000583 1000680 1002709 1000418 1000080 ...
+##  $ score       : chr  &amp;quot;.&amp;quot; &amp;quot;.&amp;quot; &amp;quot;.&amp;quot; &amp;quot;.&amp;quot; ...
+##  $ strand      : chr  &amp;quot;.&amp;quot; &amp;quot;.&amp;quot; &amp;quot;.&amp;quot; &amp;quot;.&amp;quot; ...
+##  $ frame       : chr  &amp;quot;.&amp;quot; &amp;quot;.&amp;quot; &amp;quot;.&amp;quot; &amp;quot;.&amp;quot; ...
+##  $ name        : chr  &amp;quot;H3K27me3&amp;quot; &amp;quot;H3K27ac&amp;quot; &amp;quot;H3K4me1&amp;quot; &amp;quot;H3K9ac&amp;quot; ...
+##  $ featureClass: chr  &amp;quot;Histone&amp;quot; &amp;quot;Histone&amp;quot; &amp;quot;Histone&amp;quot; &amp;quot;Histone&amp;quot; ...
+##  $ alias       : chr  &amp;quot;K562_H3K27me3_ENCODE_YALE_ccat_histone&amp;quot; &amp;quot;Monocytes-CD14+_H3K27ac_ENCODE_Broad_SWEmbl_R0005_IDR&amp;quot; &amp;quot;Monocytes-CD14+_H3K4me1_ENCODE_Broad_SWEmbl_R0005_IDR&amp;quot; &amp;quot;Monocytes-CD14+_H3K9ac_ENCODE_Broad_SWEmbl_R0005_IDR&amp;quot; ...
+##  $ cellTypes   :List of 60
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;getvariant&#34;&gt;getVariant&lt;/h3&gt;
+
+&lt;p&gt;Getting annotation for a specific variant&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(cellbaseR)
+cb &amp;lt;- CellBaseR()
+res2 &amp;lt;- getVariant(object=cb, ids=&amp;quot;1:169549811:A:G&amp;quot;, resource=&amp;quot;annotation&amp;quot;)
+# to get the data 
+res2 &amp;lt;- cbData(res2)
+str(res2, 1)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;A very powerfull feature of cellbaseR is ability to fetch a wealth of clinical
+data, as well as abiliy to fiter these data by gene, phenotype, rs, etc…&lt;/p&gt;
+
+&lt;h3 id=&#34;getclinical&#34;&gt;getClinical&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(cellbaseR)
+cb &amp;lt;- CellBaseR()
+# First we have to specify aour param, we do that by creating an object of
+# class CellbaseParam
+cbparam &amp;lt;- CellBaseParam(feature = &amp;quot;TET1&amp;quot;, assembly = &amp;quot;GRCh38&amp;quot;, limit = 50)
+cbparam
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;## |An object of class CellBaseParam
+## |use this object to control what results are returned from the CellBaseR
+##       methods
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Note that cbClinical does NOT require any Ids to be passed, only the param
+# and of course the CellbaseQuery object
+res &amp;lt;- getClinical(object=cb,param=cbparam)
+str(res,1)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;## &#39;data.frame&#39;:	50 obs. of  16 variables:
+##  $ chromosome            : chr  &amp;quot;10&amp;quot; &amp;quot;10&amp;quot; &amp;quot;10&amp;quot; &amp;quot;10&amp;quot; ...
+##  $ start                 : int  68574062 68574076 68574087 68574088 68574093 68574101 68574101 68574102 68574106 68574107 ...
+##  $ reference             : chr  &amp;quot;C&amp;quot; &amp;quot;C&amp;quot; &amp;quot;G&amp;quot; &amp;quot;G&amp;quot; ...
+##  $ alternate             : chr  &amp;quot;T&amp;quot; &amp;quot;A&amp;quot; &amp;quot;C&amp;quot; &amp;quot;C&amp;quot; ...
+##  $ hgvs                  :List of 50
+##  $ displayConsequenceType: chr  &amp;quot;missense_variant&amp;quot; &amp;quot;missense_variant&amp;quot; &amp;quot;missense_variant&amp;quot; &amp;quot;missense_variant&amp;quot; ...
+##  $ consequenceTypes      :List of 50
+##  $ conservation          :List of 50
+##  $ geneExpression        :List of 50
+##  $ geneTraitAssociation  :List of 50
+##  $ geneDrugInteraction   :List of 50
+##  $ traitAssociation      :List of 50
+##  $ cytoband              :List of 50
+##  $ id                    : chr  NA NA &amp;quot;rs776152780&amp;quot; NA ...
+##  $ populationFrequencies :List of 50
+##  $ repeat                :List of 50
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;cellbaser-wrappers&#34;&gt;cellbaseR wrappers&lt;/h1&gt;
+
+&lt;p&gt;cellbaseE package also provides many wrapper functions around commomn cellbaseR
+queries. These include:&lt;br /&gt;
+- getClinicalByGene
+- getTranscriptByGene
+- getGeneInfo
+- getSnpByGene
+- getProteinInfo
+- getClinicalByRegion
+- getConservationByRegion
+- getRegulatoryByRegion
+- getTfbsByRegion
+- getCaddScores
+- getVariantAnnotation&lt;/p&gt;
+
+&lt;h1 id=&#34;cellbaser-utilities&#34;&gt;CellbaseR utilities&lt;/h1&gt;
+
+&lt;h2 id=&#34;creategenemodel&#34;&gt;CreateGeneModel&lt;/h2&gt;
+
+&lt;p&gt;A usefull utility for fast building of gene models, compatible with Gviz
+package for genomic visualization&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(cellbaseR)
+cb &amp;lt;- CellBaseR()
+test &amp;lt;- createGeneModel(object = cb, region = &amp;quot;17:1500000-1550000&amp;quot;)
+if(require(&amp;quot;Gviz&amp;quot;)){
+  testTrack &amp;lt;- Gviz::GeneRegionTrack(test)
+  Gviz::plotTracks(testTrack, transcriptAnnotation=&#39;symbol&#39;)
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://melsiddieg.github.io/post/2019-10-02-simplifying-genomic-annotations-in-r_files/figure-html/unnamed-chunk-6-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;annotatevcf&#34;&gt;AnnotateVcf&lt;/h2&gt;
+
+&lt;p&gt;This utility allows users to annoate genomic variants from small to medium-sized
+vcf files directly from the cellbase server, with a wealth of genomic
+annotations including riche clinical annotations like clinvar, gwas, and cosmic
+data, as well as conservation and functional scores like phast and cadd  scores
+, without the need to download any files.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(cellbaseR)
+library(VariantAnnotation)
+cb &amp;lt;- CellBaseR()
+fl &amp;lt;- system.file(&amp;quot;extdata&amp;quot;, &amp;quot;hapmap_exome_chr22_200.vcf.gz&amp;quot;,package = &amp;quot;cellbaseR&amp;quot; )
+res &amp;lt;- AnnotateVcf(object=cb, file=fl, BPPARAM = bpparam(workers=2),batch_size = 100)
+vcf &amp;lt;- readVcf(fl, &amp;quot;hg19&amp;quot;)
+samples(header(vcf))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;##  [1] &amp;quot;NA07034@1099927558&amp;quot; &amp;quot;NA07048@1099927687&amp;quot; &amp;quot;NA07055@1099927615&amp;quot;
+##  [4] &amp;quot;NA10846@1099927836&amp;quot; &amp;quot;NA10847@1099927741&amp;quot; &amp;quot;NA12146@1099927743&amp;quot;
+##  [7] &amp;quot;NA12239@1099927424&amp;quot; &amp;quot;NA12877@1099925716&amp;quot; &amp;quot;NA12878@1099927697&amp;quot;
+## [10] &amp;quot;NA12891@1099927856&amp;quot; &amp;quot;NA12892@1099927810&amp;quot; &amp;quot;NA18503@1099927775&amp;quot;
+## [13] &amp;quot;NA18504@0178873056&amp;quot; &amp;quot;NA18505@1099927412&amp;quot; &amp;quot;NA18506@1099927650&amp;quot;
+## [16] &amp;quot;NA18524@1099927756&amp;quot; &amp;quot;NA18532@1099927601&amp;quot; &amp;quot;NA18912@1099927835&amp;quot;
+## [19] &amp;quot;NA18913@1099927630&amp;quot; &amp;quot;NA18914@0178874379&amp;quot; &amp;quot;NA18940@1099927867&amp;quot;
+## [22] &amp;quot;NA18947@0178875080&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;length(rowRanges(vcf))==nrow(res)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;## [1] TRUE
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;str(res,1)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;## &#39;data.frame&#39;:	200 obs. of  18 variables:
+##  $ chromosome             : chr  &amp;quot;22&amp;quot; &amp;quot;22&amp;quot; &amp;quot;22&amp;quot; &amp;quot;22&amp;quot; ...
+##  $ start                  : int  16157603 17060707 17072347 17177682 17265124 17326914 17446991 17469049 17602839 17603503 ...
+##  $ reference              : chr  &amp;quot;G&amp;quot; &amp;quot;G&amp;quot; &amp;quot;C&amp;quot; &amp;quot;C&amp;quot; ...
+##  $ alternate              : chr  &amp;quot;C&amp;quot; &amp;quot;A&amp;quot; &amp;quot;T&amp;quot; &amp;quot;A&amp;quot; ...
+##  $ id                     : chr  &amp;quot;rs370790235&amp;quot; &amp;quot;rs117836313&amp;quot; &amp;quot;rs139948519&amp;quot; &amp;quot;rs3020747&amp;quot; ...
+##  $ hgvs                   :List of 200
+##  $ displayConsequenceType : chr  &amp;quot;intron_variant&amp;quot; &amp;quot;2KB_downstream_variant&amp;quot; &amp;quot;stop_gained&amp;quot; &amp;quot;non_coding_transcript_exon_variant&amp;quot; ...
+##  $ consequenceTypes       :List of 200
+##  $ populationFrequencies  :List of 200
+##  $ conservation           :List of 200
+##  $ geneExpression         :List of 200
+##  $ geneTraitAssociation   :List of 200
+##  $ geneDrugInteraction    :List of 200
+##  $ functionalScore        :List of 200
+##  $ cytoband               :List of 200
+##  $ repeat                 :List of 200
+##  $ variantTraitAssociation:&#39;data.frame&#39;:	200 obs. of  2 variables:
+##  $ traitAssociation       :List of 200
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

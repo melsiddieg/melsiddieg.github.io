@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sudan | Academic</title>
+    <link>https://melsiddieg.github.io/tags/sudan/</link>
+      <atom:link href="https://melsiddieg.github.io/tags/sudan/index.xml" rel="self" type="application/rss+xml" />
+    <description>Sudan</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 02 Oct 2019 14:06:48 +0200</lastBuildDate>
+    <image>
+      <url>https://melsiddieg.github.io/img/icon-192.png</url>
+      <title>Sudan</title>
+      <link>https://melsiddieg.github.io/tags/sudan/</link>
+    </image>
+    
+    <item>
+      <title>African Genome Variation Database</title>
+      <link>https://melsiddieg.github.io/project/agvd/</link>
+      <pubDate>Wed, 02 Oct 2019 14:06:48 +0200</pubDate>
+      <guid>https://melsiddieg.github.io/project/agvd/</guid>
+      <description>&lt;p&gt;The aim of the project is to create an African Genome Variation Database (AGVD) that will provide searching and visualisation capabilities for African genetic data. A public version will contain only publicly available data and potentially aggregate summaries for restricted access data. If required, an internal version will include more detailed de-identified genotype data for consortium use.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Sudanese Genetics Variation Portal</title>
+      <link>https://melsiddieg.github.io/project/sgva/</link>
+      <pubDate>Wed, 02 Oct 2019 13:57:07 +0200</pubDate>
+      <guid>https://melsiddieg.github.io/project/sgva/</guid>
+      <description>&lt;p&gt;The Sudanese Genetic Variation Archive is the first comprehensive resource for  medical and population genetics in Sudan. It catalogs more than 4 million genetic variants including single nucleotide variants (SNPs) and small insertions and deletions (INDELs) from more than 300 Sudanese individuals. It is the first project to calculate the local Sudanese allele frequencies for common and rare variants including many novel variants that had not been previously reported in other populations. This resource is a big step toward achieving the goals of precision and personalized medicine in Sudan, enabling clinicians and researchers to query this wealth of genetic data with ease and in an optimized and user-friendly manner that facilitates medical and clinical genetics research.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

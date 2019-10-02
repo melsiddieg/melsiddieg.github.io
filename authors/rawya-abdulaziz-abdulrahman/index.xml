@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rawya Abdulaziz Abdulrahman | Academic</title>
+    <link>https://melsiddieg.github.io/authors/rawya-abdulaziz-abdulrahman/</link>
+      <atom:link href="https://melsiddieg.github.io/authors/rawya-abdulaziz-abdulrahman/index.xml" rel="self" type="application/rss+xml" />
+    <description>Rawya Abdulaziz Abdulrahman</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://melsiddieg.github.io/img/icon-192.png</url>
+      <title>Rawya Abdulaziz Abdulrahman</title>
+      <link>https://melsiddieg.github.io/authors/rawya-abdulaziz-abdulrahman/</link>
+    </image>
+    
+    <item>
+      <title>EBV associated Breast Cancer whole methylome analysis reveals viral and developmental enriched pathways</title>
+      <link>https://melsiddieg.github.io/publication/abdallah-2018-ebv/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://melsiddieg.github.io/publication/abdallah-2018-ebv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Methylome analysis reveals dysregulated developmental and viral pathways in breast cancer</title>
+      <link>https://melsiddieg.github.io/publication/abdallah-2015-methylome/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://melsiddieg.github.io/publication/abdallah-2015-methylome/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

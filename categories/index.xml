@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories | Academic</title>
+    <link>https://melsiddieg.github.io/categories/</link>
+      <atom:link href="https://melsiddieg.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <description>Categories</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 02 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://melsiddieg.github.io/img/icon-192.png</url>
+      <title>Categories</title>
+      <link>https://melsiddieg.github.io/categories/</link>
+    </image>
+    
+    <item>
+      <title>Bioconductor</title>
+      <link>https://melsiddieg.github.io/categories/bioconductor/</link>
+      <pubDate>Wed, 02 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://melsiddieg.github.io/categories/bioconductor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cellbaseR</title>
+      <link>https://melsiddieg.github.io/categories/cellbaser/</link>
+      <pubDate>Wed, 02 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://melsiddieg.github.io/categories/cellbaser/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Genomics</title>
+      <link>https://melsiddieg.github.io/categories/genomics/</link>
+      <pubDate>Wed, 02 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://melsiddieg.github.io/categories/genomics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>variant annotation</title>
+      <link>https://melsiddieg.github.io/categories/variant-annotation/</link>
+      <pubDate>Wed, 02 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://melsiddieg.github.io/categories/variant-annotation/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

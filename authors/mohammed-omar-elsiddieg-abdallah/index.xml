@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mohammed Omar Elsiddieg Abdallah | Academic</title>
+    <link>https://melsiddieg.github.io/authors/mohammed-omar-elsiddieg-abdallah/</link>
+      <atom:link href="https://melsiddieg.github.io/authors/mohammed-omar-elsiddieg-abdallah/index.xml" rel="self" type="application/rss+xml" />
+    <description>Mohammed Omar Elsiddieg Abdallah</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://melsiddieg.github.io/img/icon-192.png</url>
+      <title>Mohammed Omar Elsiddieg Abdallah</title>
+      <link>https://melsiddieg.github.io/authors/mohammed-omar-elsiddieg-abdallah/</link>
+    </image>
+    
+    <item>
+      <title>EBV associated Breast Cancer whole methylome analysis reveals viral and developmental enriched pathways</title>
+      <link>https://melsiddieg.github.io/publication/abdallah-2018-ebv/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://melsiddieg.github.io/publication/abdallah-2018-ebv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A bioinformatic panel to interrogate thousands of ExAC variants with minor reference allele that are missed by conventional variant calling</title>
+      <link>https://melsiddieg.github.io/publication/koko-2016-bioinformatic/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://melsiddieg.github.io/publication/koko-2016-bioinformatic/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

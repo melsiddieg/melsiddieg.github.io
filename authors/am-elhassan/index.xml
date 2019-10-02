@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AM Elhassan | Academic</title>
+    <link>https://melsiddieg.github.io/authors/am-elhassan/</link>
+      <atom:link href="https://melsiddieg.github.io/authors/am-elhassan/index.xml" rel="self" type="application/rss+xml" />
+    <description>AM Elhassan</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2007 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://melsiddieg.github.io/img/icon-192.png</url>
+      <title>AM Elhassan</title>
+      <link>https://melsiddieg.github.io/authors/am-elhassan/</link>
+    </image>
+    
+    <item>
+      <title>EBV Associated Breast Cancer Whole Methylome Analysis Reveals Viral and Developmental Enriched Pathways. Front</title>
+      <link>https://melsiddieg.github.io/publication/abdallah-2007-ebv/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
+      <guid>https://melsiddieg.github.io/publication/abdallah-2007-ebv/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
