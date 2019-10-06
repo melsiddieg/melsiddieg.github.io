@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts | Academic</title>
-    <link>https://melsiddieg.github.io/post/</link>
-      <atom:link href="https://melsiddieg.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <title>Posts | MOE</title>
+    <link>/post/</link>
+      <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 02 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>`copyright`</copyright><lastBuildDate>Wed, 02 Oct 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://melsiddieg.github.io/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Posts</title>
-      <link>https://melsiddieg.github.io/post/</link>
+      <link>/post/</link>
     </image>
     
     <item>
       <title>Simplifying Genomic Annotations in R</title>
-      <link>https://melsiddieg.github.io/post/simplifying-genomic-annotations-in-r/</link>
+      <link>/post/simplifying-genomic-annotations-in-r/</link>
       <pubDate>Wed, 02 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/post/simplifying-genomic-annotations-in-r/</guid>
+      <guid>/post/simplifying-genomic-annotations-in-r/</guid>
       <description>
 
 &lt;p&gt;In this blog post I will be introducing cellbaseR R package, which  makes use of the exhaustive RESTful Web service API that has been implemented for the Cellabase       database. It enable researchers to query and obtain a wealth of biological information from a single database saving a lot of time. Another benefit is that researchers can easily make queries about different biological topics and link all this         information together as all information is integrated&lt;/p&gt;
@@ -224,7 +224,7 @@ if(require(&amp;quot;Gviz&amp;quot;)){
 }
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://melsiddieg.github.io/post/2019-10-02-simplifying-genomic-annotations-in-r_files/figure-html/unnamed-chunk-6-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2019-10-02-simplifying-genomic-annotations-in-r_files/figure-html/unnamed-chunk-6-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;annotatevcf&#34;&gt;AnnotateVcf&lt;/h2&gt;
 

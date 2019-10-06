@@ -1,49 +1,49 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Academic</title>
-    <link>https://melsiddieg.github.io/</link>
-      <atom:link href="https://melsiddieg.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <description>Academic</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 02 Oct 2019 14:06:48 +0200</lastBuildDate>
+    <title>MOE</title>
+    <link>/</link>
+      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <description>MOE</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>`copyright`</copyright><lastBuildDate>Wed, 02 Oct 2019 14:06:48 +0200</lastBuildDate>
     <image>
-      <url>https://melsiddieg.github.io/img/icon-192.png</url>
-      <title>Academic</title>
-      <link>https://melsiddieg.github.io/</link>
+      <url>/img/icon-192.png</url>
+      <title>MOE</title>
+      <link>/</link>
     </image>
     
     <item>
       <title>African Genome Variation Database</title>
-      <link>https://melsiddieg.github.io/project/agvd/</link>
+      <link>/project/agvd/</link>
       <pubDate>Wed, 02 Oct 2019 14:06:48 +0200</pubDate>
-      <guid>https://melsiddieg.github.io/project/agvd/</guid>
+      <guid>/project/agvd/</guid>
       <description>&lt;p&gt;The aim of the project is to create an African Genome Variation Database (AGVD) that will provide searching and visualisation capabilities for African genetic data. A public version will contain only publicly available data and potentially aggregate summaries for restricted access data. If required, an internal version will include more detailed de-identified genotype data for consortium use.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>The Sudanese Genetics Variation Portal</title>
-      <link>https://melsiddieg.github.io/project/sgva/</link>
+      <link>/project/sgva/</link>
       <pubDate>Wed, 02 Oct 2019 13:57:07 +0200</pubDate>
-      <guid>https://melsiddieg.github.io/project/sgva/</guid>
+      <guid>/project/sgva/</guid>
       <description>&lt;p&gt;The Sudanese Genetic Variation Archive is the first comprehensive resource for  medical and population genetics in Sudan. It catalogs more than 4 million genetic variants including single nucleotide variants (SNPs) and small insertions and deletions (INDELs) from more than 300 Sudanese individuals. It is the first project to calculate the local Sudanese allele frequencies for common and rare variants including many novel variants that had not been previously reported in other populations. This resource is a big step toward achieving the goals of precision and personalized medicine in Sudan, enabling clinicians and researchers to query this wealth of genetic data with ease and in an optimized and user-friendly manner that facilitates medical and clinical genetics research.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>My Resume</title>
-      <link>https://melsiddieg.github.io/cv/</link>
+      <link>/cv/</link>
       <pubDate>Wed, 02 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/cv/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://melsiddieg.github.io/files/cv.pdf&#34;&gt;Download my CV&lt;/a&gt;&lt;/p&gt;
+      <guid>/cv/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;/files/MOEA_CV_Oct_2019.pdf&#34;&gt;Download my CV&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Simplifying Genomic Annotations in R</title>
-      <link>https://melsiddieg.github.io/post/simplifying-genomic-annotations-in-r/</link>
+      <link>/post/simplifying-genomic-annotations-in-r/</link>
       <pubDate>Wed, 02 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/post/simplifying-genomic-annotations-in-r/</guid>
+      <guid>/post/simplifying-genomic-annotations-in-r/</guid>
       <description>
 
 &lt;p&gt;In this blog post I will be introducing cellbaseR R package, which  makes use of the exhaustive RESTful Web service API that has been implemented for the Cellabase       database. It enable researchers to query and obtain a wealth of biological information from a single database saving a lot of time. Another benefit is that researchers can easily make queries about different biological topics and link all this         information together as all information is integrated&lt;/p&gt;
@@ -251,7 +251,7 @@ if(require(&amp;quot;Gviz&amp;quot;)){
 }
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://melsiddieg.github.io/post/2019-10-02-simplifying-genomic-annotations-in-r_files/figure-html/unnamed-chunk-6-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2019-10-02-simplifying-genomic-annotations-in-r_files/figure-html/unnamed-chunk-6-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;annotatevcf&#34;&gt;AnnotateVcf&lt;/h2&gt;
 
@@ -314,65 +314,65 @@ samples(header(vcf))
     
     <item>
       <title>Challenges imposed by minor reference alleles on the identification and reporting of clinical variants from exome data</title>
-      <link>https://melsiddieg.github.io/publication/koko-2018-challenges/</link>
+      <link>/publication/koko-2018-challenges/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/publication/koko-2018-challenges/</guid>
+      <guid>/publication/koko-2018-challenges/</guid>
       <description></description>
     </item>
     
     <item>
       <title>EBV associated Breast Cancer whole methylome analysis reveals viral and developmental enriched pathways</title>
-      <link>https://melsiddieg.github.io/publication/abdallah-2018-ebv/</link>
+      <link>/publication/abdallah-2018-ebv/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/publication/abdallah-2018-ebv/</guid>
+      <guid>/publication/abdallah-2018-ebv/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recurrent AIPL1 c. 487C&gt; T truncating variant in Leber Congenital Amaurosis: Support of pathogenicity and regional implications</title>
-      <link>https://melsiddieg.github.io/publication/abdallah-2018-recurrent/</link>
+      <link>/publication/abdallah-2018-recurrent/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/publication/abdallah-2018-recurrent/</guid>
+      <guid>/publication/abdallah-2018-recurrent/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Five decades lead in biomedical research: University of Khartoum tops Sudanese universities in PubMed articles</title>
-      <link>https://melsiddieg.github.io/publication/amin-2017-five/</link>
+      <link>/publication/amin-2017-five/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/publication/amin-2017-five/</guid>
+      <guid>/publication/amin-2017-five/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A bioinformatic panel to interrogate thousands of ExAC variants with minor reference allele that are missed by conventional variant calling</title>
-      <link>https://melsiddieg.github.io/publication/koko-2016-bioinformatic/</link>
+      <link>/publication/koko-2016-bioinformatic/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/publication/koko-2016-bioinformatic/</guid>
+      <guid>/publication/koko-2016-bioinformatic/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Exome sequencing of a colorectal cancer family reveals shared mutation pattern and predisposition circuitry along tumor pathways</title>
-      <link>https://melsiddieg.github.io/publication/suleiman-2015-exome/</link>
+      <link>/publication/suleiman-2015-exome/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/publication/suleiman-2015-exome/</guid>
+      <guid>/publication/suleiman-2015-exome/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Methylome analysis reveals dysregulated developmental and viral pathways in breast cancer</title>
-      <link>https://melsiddieg.github.io/publication/abdallah-2015-methylome/</link>
+      <link>/publication/abdallah-2015-methylome/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/publication/abdallah-2015-methylome/</guid>
+      <guid>/publication/abdallah-2015-methylome/</guid>
       <description></description>
     </item>
     
     <item>
       <title>EBV Associated Breast Cancer Whole Methylome Analysis Reveals Viral and Developmental Enriched Pathways. Front</title>
-      <link>https://melsiddieg.github.io/publication/abdallah-2007-ebv/</link>
+      <link>/publication/abdallah-2007-ebv/</link>
       <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/publication/abdallah-2007-ebv/</guid>
+      <guid>/publication/abdallah-2007-ebv/</guid>
       <description></description>
     </item>
     

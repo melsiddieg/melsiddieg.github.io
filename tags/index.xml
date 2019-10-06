@@ -1,78 +1,78 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags | Academic</title>
-    <link>https://melsiddieg.github.io/tags/</link>
-      <atom:link href="https://melsiddieg.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <title>Tags | MOE</title>
+    <link>/tags/</link>
+      <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 02 Oct 2019 14:06:48 +0200</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>`copyright`</copyright><lastBuildDate>Wed, 02 Oct 2019 14:06:48 +0200</lastBuildDate>
     <image>
-      <url>https://melsiddieg.github.io/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Tags</title>
-      <link>https://melsiddieg.github.io/tags/</link>
+      <link>/tags/</link>
     </image>
     
     <item>
       <title>Africa</title>
-      <link>https://melsiddieg.github.io/tags/africa/</link>
+      <link>/tags/africa/</link>
       <pubDate>Wed, 02 Oct 2019 14:06:48 +0200</pubDate>
-      <guid>https://melsiddieg.github.io/tags/africa/</guid>
+      <guid>/tags/africa/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bioinformatics</title>
-      <link>https://melsiddieg.github.io/tags/bioinformatics/</link>
+      <link>/tags/bioinformatics/</link>
       <pubDate>Wed, 02 Oct 2019 14:06:48 +0200</pubDate>
-      <guid>https://melsiddieg.github.io/tags/bioinformatics/</guid>
+      <guid>/tags/bioinformatics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Genetic Variation</title>
-      <link>https://melsiddieg.github.io/tags/genetic-variation/</link>
+      <link>/tags/genetic-variation/</link>
       <pubDate>Wed, 02 Oct 2019 14:06:48 +0200</pubDate>
-      <guid>https://melsiddieg.github.io/tags/genetic-variation/</guid>
+      <guid>/tags/genetic-variation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Genomics</title>
-      <link>https://melsiddieg.github.io/tags/genomics/</link>
+      <link>/tags/genomics/</link>
       <pubDate>Wed, 02 Oct 2019 14:06:48 +0200</pubDate>
-      <guid>https://melsiddieg.github.io/tags/genomics/</guid>
+      <guid>/tags/genomics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sudan</title>
-      <link>https://melsiddieg.github.io/tags/sudan/</link>
+      <link>/tags/sudan/</link>
       <pubDate>Wed, 02 Oct 2019 14:06:48 +0200</pubDate>
-      <guid>https://melsiddieg.github.io/tags/sudan/</guid>
+      <guid>/tags/sudan/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cellbaseR</title>
-      <link>https://melsiddieg.github.io/tags/cellbaser/</link>
+      <link>/tags/cellbaser/</link>
       <pubDate>Wed, 02 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/tags/cellbaser/</guid>
+      <guid>/tags/cellbaser/</guid>
       <description></description>
     </item>
     
     <item>
       <title>OpenCGA</title>
-      <link>https://melsiddieg.github.io/tags/opencga/</link>
+      <link>/tags/opencga/</link>
       <pubDate>Wed, 02 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/tags/opencga/</guid>
+      <guid>/tags/opencga/</guid>
       <description></description>
     </item>
     
     <item>
       <title>variant Annotation</title>
-      <link>https://melsiddieg.github.io/tags/variant-annotation/</link>
+      <link>/tags/variant-annotation/</link>
       <pubDate>Wed, 02 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/tags/variant-annotation/</guid>
+      <guid>/tags/variant-annotation/</guid>
       <description></description>
     </item>
     

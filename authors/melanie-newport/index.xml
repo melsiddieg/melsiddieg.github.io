@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Melanie Newport | Academic</title>
-    <link>https://melsiddieg.github.io/authors/melanie-newport/</link>
-      <atom:link href="https://melsiddieg.github.io/authors/melanie-newport/index.xml" rel="self" type="application/rss+xml" />
+    <title>Melanie Newport | MOE</title>
+    <link>/authors/melanie-newport/</link>
+      <atom:link href="/authors/melanie-newport/index.xml" rel="self" type="application/rss+xml" />
     <description>Melanie Newport</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>`copyright`</copyright><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://melsiddieg.github.io/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Melanie Newport</title>
-      <link>https://melsiddieg.github.io/authors/melanie-newport/</link>
+      <link>/authors/melanie-newport/</link>
     </image>
     
     <item>
       <title>Recurrent AIPL1 c. 487C&gt; T truncating variant in Leber Congenital Amaurosis: Support of pathogenicity and regional implications</title>
-      <link>https://melsiddieg.github.io/publication/abdallah-2018-recurrent/</link>
+      <link>/publication/abdallah-2018-recurrent/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/publication/abdallah-2018-recurrent/</guid>
+      <guid>/publication/abdallah-2018-recurrent/</guid>
       <description></description>
     </item>
     

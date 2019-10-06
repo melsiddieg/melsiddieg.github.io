@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title> others | Academic</title>
-    <link>https://melsiddieg.github.io/authors/others/</link>
-      <atom:link href="https://melsiddieg.github.io/authors/others/index.xml" rel="self" type="application/rss+xml" />
+    <title> others | MOE</title>
+    <link>/authors/others/</link>
+      <atom:link href="/authors/others/index.xml" rel="self" type="application/rss+xml" />
     <description> others</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>`copyright`</copyright><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://melsiddieg.github.io/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title> others</title>
-      <link>https://melsiddieg.github.io/authors/others/</link>
+      <link>/authors/others/</link>
     </image>
     
     <item>
       <title>EBV associated Breast Cancer whole methylome analysis reveals viral and developmental enriched pathways</title>
-      <link>https://melsiddieg.github.io/publication/abdallah-2018-ebv/</link>
+      <link>/publication/abdallah-2018-ebv/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/publication/abdallah-2018-ebv/</guid>
+      <guid>/publication/abdallah-2018-ebv/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Exome sequencing of a colorectal cancer family reveals shared mutation pattern and predisposition circuitry along tumor pathways</title>
-      <link>https://melsiddieg.github.io/publication/suleiman-2015-exome/</link>
+      <link>/publication/suleiman-2015-exome/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/publication/suleiman-2015-exome/</guid>
+      <guid>/publication/suleiman-2015-exome/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Methylome analysis reveals dysregulated developmental and viral pathways in breast cancer</title>
-      <link>https://melsiddieg.github.io/publication/abdallah-2015-methylome/</link>
+      <link>/publication/abdallah-2015-methylome/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/publication/abdallah-2015-methylome/</guid>
+      <guid>/publication/abdallah-2015-methylome/</guid>
       <description></description>
     </item>
     
     <item>
       <title>EBV Associated Breast Cancer Whole Methylome Analysis Reveals Viral and Developmental Enriched Pathways. Front</title>
-      <link>https://melsiddieg.github.io/publication/abdallah-2007-ebv/</link>
+      <link>/publication/abdallah-2007-ebv/</link>
       <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/publication/abdallah-2007-ebv/</guid>
+      <guid>/publication/abdallah-2007-ebv/</guid>
       <description></description>
     </item>
     

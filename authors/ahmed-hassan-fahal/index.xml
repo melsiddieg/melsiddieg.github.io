@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ahmed Hassan Fahal | Academic</title>
-    <link>https://melsiddieg.github.io/authors/ahmed-hassan-fahal/</link>
-      <atom:link href="https://melsiddieg.github.io/authors/ahmed-hassan-fahal/index.xml" rel="self" type="application/rss+xml" />
+    <title>Ahmed Hassan Fahal | MOE</title>
+    <link>/authors/ahmed-hassan-fahal/</link>
+      <atom:link href="/authors/ahmed-hassan-fahal/index.xml" rel="self" type="application/rss+xml" />
     <description>Ahmed Hassan Fahal</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>`copyright`</copyright><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://melsiddieg.github.io/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Ahmed Hassan Fahal</title>
-      <link>https://melsiddieg.github.io/authors/ahmed-hassan-fahal/</link>
+      <link>/authors/ahmed-hassan-fahal/</link>
     </image>
     
     <item>
       <title>EBV associated Breast Cancer whole methylome analysis reveals viral and developmental enriched pathways</title>
-      <link>https://melsiddieg.github.io/publication/abdallah-2018-ebv/</link>
+      <link>/publication/abdallah-2018-ebv/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/publication/abdallah-2018-ebv/</guid>
+      <guid>/publication/abdallah-2018-ebv/</guid>
       <description></description>
     </item>
     

@@ -1,342 +1,342 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors | Academic</title>
-    <link>https://melsiddieg.github.io/authors/</link>
-      <atom:link href="https://melsiddieg.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <title>Authors | MOE</title>
+    <link>/authors/</link>
+      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>`copyright`</copyright><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://melsiddieg.github.io/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Authors</title>
-      <link>https://melsiddieg.github.io/authors/</link>
+      <link>/authors/</link>
     </image>
     
     <item>
       <title> others</title>
-      <link>https://melsiddieg.github.io/authors/others/</link>
+      <link>/authors/others/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/authors/others/</guid>
+      <guid>/authors/others/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ahmed Hassan Fahal</title>
-      <link>https://melsiddieg.github.io/authors/ahmed-hassan-fahal/</link>
+      <link>/authors/ahmed-hassan-fahal/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/authors/ahmed-hassan-fahal/</guid>
+      <guid>/authors/ahmed-hassan-fahal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ahmed Mohamed Elhassan</title>
-      <link>https://melsiddieg.github.io/authors/ahmed-mohamed-elhassan/</link>
+      <link>/authors/ahmed-mohamed-elhassan/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/authors/ahmed-mohamed-elhassan/</guid>
+      <guid>/authors/ahmed-mohamed-elhassan/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hiba Salaheldin Mohamed</title>
-      <link>https://melsiddieg.github.io/authors/hiba-salaheldin-mohamed/</link>
+      <link>/authors/hiba-salaheldin-mohamed/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/authors/hiba-salaheldin-mohamed/</guid>
+      <guid>/authors/hiba-salaheldin-mohamed/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Jamal Haleem Shakir</title>
-      <link>https://melsiddieg.github.io/authors/jamal-haleem-shakir/</link>
+      <link>/authors/jamal-haleem-shakir/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/authors/jamal-haleem-shakir/</guid>
+      <guid>/authors/jamal-haleem-shakir/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mahmoud Koko</title>
-      <link>https://melsiddieg.github.io/authors/mahmoud-koko/</link>
+      <link>/authors/mahmoud-koko/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/authors/mahmoud-koko/</guid>
+      <guid>/authors/mahmoud-koko/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Maram Abbas Suliman</title>
-      <link>https://melsiddieg.github.io/authors/maram-abbas-suliman/</link>
+      <link>/authors/maram-abbas-suliman/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/authors/maram-abbas-suliman/</guid>
+      <guid>/authors/maram-abbas-suliman/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Melanie Newport</title>
-      <link>https://melsiddieg.github.io/authors/melanie-newport/</link>
+      <link>/authors/melanie-newport/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/authors/melanie-newport/</guid>
+      <guid>/authors/melanie-newport/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mohammed OE Abdallah</title>
-      <link>https://melsiddieg.github.io/authors/mohammed-oe-abdallah/</link>
+      <link>/authors/mohammed-oe-abdallah/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/authors/mohammed-oe-abdallah/</guid>
+      <guid>/authors/mohammed-oe-abdallah/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mohammed Omar Elsiddieg Abdallah</title>
-      <link>https://melsiddieg.github.io/authors/mohammed-omar-elsiddieg-abdallah/</link>
+      <link>/authors/mohammed-omar-elsiddieg-abdallah/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/authors/mohammed-omar-elsiddieg-abdallah/</guid>
+      <guid>/authors/mohammed-omar-elsiddieg-abdallah/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Muntaser Eltayeb Ibrahim</title>
-      <link>https://melsiddieg.github.io/authors/muntaser-eltayeb-ibrahim/</link>
+      <link>/authors/muntaser-eltayeb-ibrahim/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/authors/muntaser-eltayeb-ibrahim/</guid>
+      <guid>/authors/muntaser-eltayeb-ibrahim/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Muntaser Ibrahim</title>
-      <link>https://melsiddieg.github.io/authors/muntaser-ibrahim/</link>
+      <link>/authors/muntaser-ibrahim/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/authors/muntaser-ibrahim/</guid>
+      <guid>/authors/muntaser-ibrahim/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mutaz Amin</title>
-      <link>https://melsiddieg.github.io/authors/mutaz-amin/</link>
+      <link>/authors/mutaz-amin/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/authors/mutaz-amin/</guid>
+      <guid>/authors/mutaz-amin/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Rawya Abdulaziz Abdulrahman</title>
-      <link>https://melsiddieg.github.io/authors/rawya-abdulaziz-abdulrahman/</link>
+      <link>/authors/rawya-abdulaziz-abdulrahman/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/authors/rawya-abdulaziz-abdulrahman/</guid>
+      <guid>/authors/rawya-abdulaziz-abdulrahman/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Shima Faisal</title>
-      <link>https://melsiddieg.github.io/authors/shima-faisal/</link>
+      <link>/authors/shima-faisal/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/authors/shima-faisal/</guid>
+      <guid>/authors/shima-faisal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ubai Kamal Algizouli</title>
-      <link>https://melsiddieg.github.io/authors/ubai-kamal-algizouli/</link>
+      <link>/authors/ubai-kamal-algizouli/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/authors/ubai-kamal-algizouli/</guid>
+      <guid>/authors/ubai-kamal-algizouli/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Yousuf Bakhit</title>
-      <link>https://melsiddieg.github.io/authors/yousuf-bakhit/</link>
+      <link>/authors/yousuf-bakhit/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/authors/yousuf-bakhit/</guid>
+      <guid>/authors/yousuf-bakhit/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ahmed H Fahal</title>
-      <link>https://melsiddieg.github.io/authors/ahmed-h-fahal/</link>
+      <link>/authors/ahmed-h-fahal/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/authors/ahmed-h-fahal/</guid>
+      <guid>/authors/ahmed-h-fahal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ahmed M Elhassan</title>
-      <link>https://melsiddieg.github.io/authors/ahmed-m-elhassan/</link>
+      <link>/authors/ahmed-m-elhassan/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/authors/ahmed-m-elhassan/</guid>
+      <guid>/authors/ahmed-m-elhassan/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ayman Hussain</title>
-      <link>https://melsiddieg.github.io/authors/ayman-hussain/</link>
+      <link>/authors/ayman-hussain/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/authors/ayman-hussain/</guid>
+      <guid>/authors/ayman-hussain/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fathelrahman Ibrahim</title>
-      <link>https://melsiddieg.github.io/authors/fathelrahman-ibrahim/</link>
+      <link>/authors/fathelrahman-ibrahim/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/authors/fathelrahman-ibrahim/</guid>
+      <guid>/authors/fathelrahman-ibrahim/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ghimja Fessahaye</title>
-      <link>https://melsiddieg.github.io/authors/ghimja-fessahaye/</link>
+      <link>/authors/ghimja-fessahaye/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/authors/ghimja-fessahaye/</guid>
+      <guid>/authors/ghimja-fessahaye/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Khalid O Alfarouk</title>
-      <link>https://melsiddieg.github.io/authors/khalid-o-alfarouk/</link>
+      <link>/authors/khalid-o-alfarouk/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/authors/khalid-o-alfarouk/</guid>
+      <guid>/authors/khalid-o-alfarouk/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mahmoud E Koko</title>
-      <link>https://melsiddieg.github.io/authors/mahmoud-e-koko/</link>
+      <link>/authors/mahmoud-e-koko/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/authors/mahmoud-e-koko/</guid>
+      <guid>/authors/mahmoud-e-koko/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Muntaser E Ibrahim E Ibrahim</title>
-      <link>https://melsiddieg.github.io/authors/muntaser-e-ibrahim-e-ibrahim/</link>
+      <link>/authors/muntaser-e-ibrahim-e-ibrahim/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/authors/muntaser-e-ibrahim-e-ibrahim/</guid>
+      <guid>/authors/muntaser-e-ibrahim-e-ibrahim/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ommnyiah Elfateh</title>
-      <link>https://melsiddieg.github.io/authors/ommnyiah-elfateh/</link>
+      <link>/authors/ommnyiah-elfateh/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/authors/ommnyiah-elfateh/</guid>
+      <guid>/authors/ommnyiah-elfateh/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Suleiman H Suleiman</title>
-      <link>https://melsiddieg.github.io/authors/suleiman-h-suleiman/</link>
+      <link>/authors/suleiman-h-suleiman/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/authors/suleiman-h-suleiman/</guid>
+      <guid>/authors/suleiman-h-suleiman/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ubai K Algizouli</title>
-      <link>https://melsiddieg.github.io/authors/ubai-k-algizouli/</link>
+      <link>/authors/ubai-k-algizouli/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/authors/ubai-k-algizouli/</guid>
+      <guid>/authors/ubai-k-algizouli/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ubai K Elgizouli</title>
-      <link>https://melsiddieg.github.io/authors/ubai-k-elgizouli/</link>
+      <link>/authors/ubai-k-elgizouli/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/authors/ubai-k-elgizouli/</guid>
+      <guid>/authors/ubai-k-elgizouli/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Wafaa H Nasir</title>
-      <link>https://melsiddieg.github.io/authors/wafaa-h-nasir/</link>
+      <link>/authors/wafaa-h-nasir/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/authors/wafaa-h-nasir/</guid>
+      <guid>/authors/wafaa-h-nasir/</guid>
       <description></description>
     </item>
     
     <item>
       <title>AH Fahal</title>
-      <link>https://melsiddieg.github.io/authors/ah-fahal/</link>
+      <link>/authors/ah-fahal/</link>
       <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/authors/ah-fahal/</guid>
+      <guid>/authors/ah-fahal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>AM Elhassan</title>
-      <link>https://melsiddieg.github.io/authors/am-elhassan/</link>
+      <link>/authors/am-elhassan/</link>
       <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/authors/am-elhassan/</guid>
+      <guid>/authors/am-elhassan/</guid>
       <description></description>
     </item>
     
     <item>
       <title>G Fessahaye</title>
-      <link>https://melsiddieg.github.io/authors/g-fessahaye/</link>
+      <link>/authors/g-fessahaye/</link>
       <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/authors/g-fessahaye/</guid>
+      <guid>/authors/g-fessahaye/</guid>
       <description></description>
     </item>
     
     <item>
       <title>JH Shakir</title>
-      <link>https://melsiddieg.github.io/authors/jh-shakir/</link>
+      <link>/authors/jh-shakir/</link>
       <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/authors/jh-shakir/</guid>
+      <guid>/authors/jh-shakir/</guid>
       <description></description>
     </item>
     
     <item>
       <title>M Koko</title>
-      <link>https://melsiddieg.github.io/authors/m-koko/</link>
+      <link>/authors/m-koko/</link>
       <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/authors/m-koko/</guid>
+      <guid>/authors/m-koko/</guid>
       <description></description>
     </item>
     
     <item>
       <title>MA Suliman</title>
-      <link>https://melsiddieg.github.io/authors/ma-suliman/</link>
+      <link>/authors/ma-suliman/</link>
       <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/authors/ma-suliman/</guid>
+      <guid>/authors/ma-suliman/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ME Ibrahim</title>
-      <link>https://melsiddieg.github.io/authors/me-ibrahim/</link>
+      <link>/authors/me-ibrahim/</link>
       <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/authors/me-ibrahim/</guid>
+      <guid>/authors/me-ibrahim/</guid>
       <description></description>
     </item>
     
     <item>
       <title>MOE Abdallah</title>
-      <link>https://melsiddieg.github.io/authors/moe-abdallah/</link>
+      <link>/authors/moe-abdallah/</link>
       <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/authors/moe-abdallah/</guid>
+      <guid>/authors/moe-abdallah/</guid>
       <description></description>
     </item>
     
     <item>
       <title>RA Abdulrahman</title>
-      <link>https://melsiddieg.github.io/authors/ra-abdulrahman/</link>
+      <link>/authors/ra-abdulrahman/</link>
       <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/authors/ra-abdulrahman/</guid>
+      <guid>/authors/ra-abdulrahman/</guid>
       <description></description>
     </item>
     
     <item>
       <title>UK Algizouli</title>
-      <link>https://melsiddieg.github.io/authors/uk-algizouli/</link>
+      <link>/authors/uk-algizouli/</link>
       <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/authors/uk-algizouli/</guid>
+      <guid>/authors/uk-algizouli/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://melsiddieg.github.io/authors/melsiddieg/</link>
+      <link>/authors/melsiddieg/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/authors/melsiddieg/</guid>
+      <guid>/authors/melsiddieg/</guid>
       <description>&lt;p&gt;Mohammed O.E. Abdallah is a post-doctoral fellow in the department of human genetics at professor Raj Ramesar group. His research interests includes Genomics, Cancer Genomics,  Pharmacogenomics, and Bioinformatics.&lt;/p&gt;
 
 &lt;p&gt;I am a physician who turned into a bioinformatician, and R and Python developer with the ultimate goal of utilizing cutting edge technologies for understanding common medical and research problems, especially for understudied populations&lt;/p&gt;

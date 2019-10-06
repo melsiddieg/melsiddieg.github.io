@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Wafaa H Nasir | Academic</title>
-    <link>https://melsiddieg.github.io/authors/wafaa-h-nasir/</link>
-      <atom:link href="https://melsiddieg.github.io/authors/wafaa-h-nasir/index.xml" rel="self" type="application/rss+xml" />
+    <title>Wafaa H Nasir | MOE</title>
+    <link>/authors/wafaa-h-nasir/</link>
+      <atom:link href="/authors/wafaa-h-nasir/index.xml" rel="self" type="application/rss+xml" />
     <description>Wafaa H Nasir</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>`copyright`</copyright><lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://melsiddieg.github.io/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Wafaa H Nasir</title>
-      <link>https://melsiddieg.github.io/authors/wafaa-h-nasir/</link>
+      <link>/authors/wafaa-h-nasir/</link>
     </image>
     
     <item>
       <title>Exome sequencing of a colorectal cancer family reveals shared mutation pattern and predisposition circuitry along tumor pathways</title>
-      <link>https://melsiddieg.github.io/publication/suleiman-2015-exome/</link>
+      <link>/publication/suleiman-2015-exome/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/publication/suleiman-2015-exome/</guid>
+      <guid>/publication/suleiman-2015-exome/</guid>
       <description></description>
     </item>
     

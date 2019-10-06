@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>RA Abdulrahman | Academic</title>
-    <link>https://melsiddieg.github.io/authors/ra-abdulrahman/</link>
-      <atom:link href="https://melsiddieg.github.io/authors/ra-abdulrahman/index.xml" rel="self" type="application/rss+xml" />
+    <title>RA Abdulrahman | MOE</title>
+    <link>/authors/ra-abdulrahman/</link>
+      <atom:link href="/authors/ra-abdulrahman/index.xml" rel="self" type="application/rss+xml" />
     <description>RA Abdulrahman</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2007 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>`copyright`</copyright><lastBuildDate>Mon, 01 Jan 2007 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://melsiddieg.github.io/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>RA Abdulrahman</title>
-      <link>https://melsiddieg.github.io/authors/ra-abdulrahman/</link>
+      <link>/authors/ra-abdulrahman/</link>
     </image>
     
     <item>
       <title>EBV Associated Breast Cancer Whole Methylome Analysis Reveals Viral and Developmental Enriched Pathways. Front</title>
-      <link>https://melsiddieg.github.io/publication/abdallah-2007-ebv/</link>
+      <link>/publication/abdallah-2007-ebv/</link>
       <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
-      <guid>https://melsiddieg.github.io/publication/abdallah-2007-ebv/</guid>
+      <guid>/publication/abdallah-2007-ebv/</guid>
       <description></description>
     </item>
     
