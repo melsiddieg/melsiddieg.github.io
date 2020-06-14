@@ -5,12 +5,52 @@
     <link>/tags/</link>
       <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>`copyright`</copyright><lastBuildDate>Wed, 02 Oct 2019 14:06:48 +0200</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>`copyright`</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Tags</title>
       <link>/tags/</link>
     </image>
+    
+    <item>
+      <title>age and cervical cancer</title>
+      <link>/tags/age-and-cervical-cancer/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/tags/age-and-cervical-cancer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CD4 count and CD4 percentage disconnect</title>
+      <link>/tags/cd4-count-and-cd4-percentage-disconnect/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/tags/cd4-count-and-cd4-percentage-disconnect/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cervical tumor biopsies</title>
+      <link>/tags/cervical-tumor-biopsies/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/tags/cervical-tumor-biopsies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HIV-1/HPV co-infection</title>
+      <link>/tags/hiv-1/hpv-co-infection/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/tags/hiv-1/hpv-co-infection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HPV genotypes</title>
+      <link>/tags/hpv-genotypes/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/tags/hpv-genotypes/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Africa</title>

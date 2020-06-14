@@ -5,12 +5,20 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>MOE</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>`copyright`</copyright><lastBuildDate>Wed, 02 Oct 2019 14:06:48 +0200</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>`copyright`</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>MOE</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>Age, absolute CD4 count, and CD4 percentage in relation to HPV infection and the stage of cervical disease in HIV-1-positive women</title>
+      <link>/publication/chambuso-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/chambuso-2020/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>African Genome Variation Database</title>

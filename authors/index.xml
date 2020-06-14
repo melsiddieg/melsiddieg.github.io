@@ -5,12 +5,84 @@
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>`copyright`</copyright><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>`copyright`</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Authors</title>
       <link>/authors/</link>
     </image>
+    
+    <item>
+      <title>Alltalents T. Murahwa</title>
+      <link>/authors/alltalents-t.-murahwa/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/alltalents-t.-murahwa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anna Lise Williamson</title>
+      <link>/authors/anna-lise-williamson/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/anna-lise-williamson/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Clive M. Gray</title>
+      <link>/authors/clive-m.-gray/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/clive-m.-gray/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evelyn Kaambo</title>
+      <link>/authors/evelyn-kaambo/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/evelyn-kaambo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lynette Denny</title>
+      <link>/authors/lynette-denny/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/lynette-denny/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Michelle De Sousa</title>
+      <link>/authors/michelle-de-sousa/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/michelle-de-sousa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mohammed O.E. Abdallah</title>
+      <link>/authors/mohammed-o.e.-abdallah/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/mohammed-o.e.-abdallah/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Raj Ramesar</title>
+      <link>/authors/raj-ramesar/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/raj-ramesar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ramadhani Chambuso</title>
+      <link>/authors/ramadhani-chambuso/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/ramadhani-chambuso/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title> others</title>
